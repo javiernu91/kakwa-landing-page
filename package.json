@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "name": "kakwa-landing-page",
+  "description": "A basic and static landing page to describe the kakwa natural products",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiernu91/kakwa-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javiernu91/kakwa-landing-page/issues"
+  },
+  "homepage": "https://github.com/javiernu91/kakwa-landing-page#readme"
+}

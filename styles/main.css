@@ -64,9 +64,12 @@
 }
 
 .objective, .mision, .vision, .values {
+
   width: 90%;
+
+  max-width: 800px;
   padding: 0 4px;
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 .objective h2, .mision h2, .vision h2, .values h2{
@@ -85,10 +88,12 @@
 
 ul {
   margin-top: 18px;
+  
 }
 
 ul li {
   margin-top: 18px;
+  list-style: none;
 }
 
 .contact h2 {

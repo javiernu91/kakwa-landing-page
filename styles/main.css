@@ -124,3 +124,11 @@ ul li {
 .contact_image img{
   width: 30px;
 }
+
+.contact_cel p {
+  margin-bottom: 4px;
+}
+.contact_cel p a {
+  text-decoration: none;
+  color: var(--secondary_color_text);
+}

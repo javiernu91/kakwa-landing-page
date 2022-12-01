@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --primary_color_title: #40a397;
+  --secondary_color_text: #e78c2e;
+  --primary_background_color: #fdf5e7;
+}
+
+.navbar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.image_menu, .image_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 0 30px;
+}
+
+.image_logo img {
+  height: 45px;
+  
+}
+
+.navbar p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--primary_color_title);
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  display: flex;
+  height: 50vh;
+  background: rgb(231,140,46);
+  background: linear-gradient(166deg, rgba(231,140,46,0.9) 0%, rgba(255,235,203,0.9) 100%);
+  color: var(--primary_color_title);
+  align-items: center;
+  justify-content: center;
+}
+
+.principal_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.objective, .mision, .vision, .values {
+  width: 90%;
+  padding: 0 4px;
+  margin: 40px 0;
+}
+
+.objective h2, .mision h2, .vision h2, .values h2{
+  color: #40a397;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 0 0 18px 0;
+  text-align: center;
+}
+
+.objective p, .mision p, .vision p, .values p {
+  line-height: 20px;
+}
+
+
+ul {
+  margin-top: 18px;
+}
+
+ul li {
+  margin-top: 18px;
+}
+
+.contact h2 {
+  color: #40a397;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0 0 18px 0;
+  text-align: center;
+}
+
+.contact_container {
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   margin-bottom: 18px;
+}
+
+.contact_image {
+  display: flex;
+  width: 30px;
+  align-items: center;
+  margin-right: 14px;
+
+}
+
+.contact_image img{
+  width: 30px;
+}
